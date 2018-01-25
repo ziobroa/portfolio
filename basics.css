@@ -1,17 +1,12 @@
-/** write your styles in this sheet. **/
-
-
 * {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
-}
+-webkit-box-sizing: inherit;
+-moz-box-sizing: inherit;
+box-sizing: inherit;}
 
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  box-sizing: border-box;}
 
 @keyframes fadeInOpacity {
 	0% {
@@ -26,13 +21,11 @@ body {
 margin: 0;
 background: #fefefe;
 font-family: 'Roboto Mono', Helvetica, Arial, sans-serif;
-font-size: 17px;
-}
+font-size: 17px;}
 
 img {
 width: 100%;
-height: auto;
-}
+height: auto;}
 
 /*------------------- TEXT ----------------------*/
 
@@ -41,16 +34,11 @@ text-decoration: none;
 color: #333;
 transition: .5s;
 opacity: 1;
-cursor: crosshair;
-}
+cursor: crosshair;}
 
-a:hover {
-opacity: .2;
-}
+a:hover {opacity: .2;}
 
-a.one:hover {
-opacity: 1;
-}
+a.one:hover {opacity: 1;}
 
 h1 {
 font-family: 'Roboto Mono';
@@ -59,91 +47,71 @@ color: #222;
 font-weight: 500;
 line-height: 55px;
 text-align: left;
-font-weight: 300;
-}
+font-weight: 300;}
 
 p {
 font-size: 12px;
 font-weight: 200;
 line-height: 24px;
-color: #888;
-}
+color: #888;}
 
 
-b {
-font-weight: 700;
-}
+b {font-weight: 700;}
 
 /*------------------- TEXT ----------------------*/
 
 
 .crossfade > figure {
-  animation: imageAnimation 30s linear infinite 0s;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  background-size: cover;
-  background-position: center;
-  color: transparent;
-  height: 100%;
-  opacity: 0;
-  width: 100%;
-  z-index: 0;
+animation: imageAnimation 30s linear infinite 0s;
+backface-visibility: hidden;
+-webkit-backface-visibility: hidden;
+background-size: cover;
+background-position: center;
+color: transparent;
+height: 100%;
+opacity: 0;
+width: 100%;
+z-index: 0;
 position: absolute;
 margin-top: 0px;
-margin-left: 0px;
-}
+margin-left: 0px;}
 
 .crossfade > figure:nth-child(1) { background-image: url('HUEBG2.jpg'); }
  
 .crossfade > figure:nth-child(2) {
-  animation-delay: 5s;
-  background-image: url('hi.png');
-}
+animation-delay: 5s;
+background-image: url('hi.png');}
  
 .crossfade > figure:nth-child(3) {
-  animation-delay: 11s;
-  background-image: url('HUEBG.jpg');
-    background-size: 130%;
-    background-position: bottom;
-}
+animation-delay: 11s;
+background-image: url('HUEBG.jpg');
+background-size: 130%;
+background-position: bottom;}
 
 .crossfade > figure:nth-child(4) {
-  animation-delay: 17s;
-  background-image: url('CONC01.png');
-}
+animation-delay: 17s;
+background-image: url('CONC01.png');}
  
 .crossfade > figure:nth-child(5) {
-  animation-delay: 23s;
-  background-image: url('HUE03.jpg');
-}
+animation-delay: 23s;
+background-image: url('HUE03.jpg');}
 
 @keyframes
 imageAnimation {  0% {
- animation-timing-function: ease-in-out;
- opacity: 0;
-}
- 8% {
- opacity: 1;
-}
-
- 17% {
- opacity: 1;
-}
-
- 25% {
- opacity: 0;
-}
-    
- 100% {
 animation-timing-function: ease-in-out;
- opacity: 0;
+opacity: 0;}
+    
+8% {opacity: 1;}
+
+17% {opacity: 1;}
+
+25% {opacity: 0;}
+    
+100% {
+animation-timing-function: ease-in-out;
+opacity: 0;
 }
 }
-
-
-
-
-
 
 
 /*-------------------PROJECT ----------------------*/
@@ -153,16 +121,14 @@ width: 100%;
 height: 100vh;
 position: fixed;
 background: #fefefe;
-top: 0px;
-}
+top: 0px;}
 
 .SWRAP {
 width: 100vw;
 height: 100vh;
 position: absolute;
 border-radius: 2px;
-overflow:hidden;
-}
+overflow:hidden;}
 
 .inlogo {
 width: 50vh;
@@ -174,14 +140,7 @@ left: 50%;
 top: 50%;
 -webkit-transform: translate(-50%, -50%);
 -moz-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
-}
-
-.inlogo img {
-width: 100%;
-height: 100%;
-margin: 0;
-}
+transform: translate(-50%, -50%);}
 
 .PORT {
 width: 100%;
@@ -191,9 +150,8 @@ top: 100vh;
 padding-top: 12vh;
 padding-bottom: 12vh;
 -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
--moz-box-shadow:    0px 0px 50px rgba(0, 0, 0, 0.2);
-box-shadow:         0px 0px 50px rgba(0, 0, 0, 0.2);
-}
+-moz-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);}
 
 .hello {
 max-width: 55vw;
@@ -202,12 +160,9 @@ left: 50%;
 margin-top: 10vh;
 -webkit-transform: translate(-50%);
 -moz-transform: translate(-50%);
-transform: translate(-50%);
-}
+transform: translate(-50%);}
 
-.dot {
- animation: pulse .8s infinite;
-}
+.dot {animation: pulse .8s infinite;}
 
 @keyframes pulse {
   0% {
@@ -222,17 +177,11 @@ transform: translate(-50%);
 width: 10vh;
 height: 10vh;
 position: absolute;
-z-index: 9999;
-margin: 0;
-left: 2%;
-}
+top: 50%;
+transform: translateY(-50%);
+left: 2%;}
 
-.hlogo img {
-width: 100%;
-height: 100%;
-    margin: 0;}
-
-#sidebar {
+#HEAD {
 margin-top: 0px;
 margin-left:0px;
 background: #fefefe;
@@ -242,21 +191,14 @@ position: fixed;
 overflow: hidden;
 -webkit-box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.05);
 -moz-box-shadow:    0px 0px 50px 20px rgba(0, 0, 0, 0.05);
-box-shadow:         0px 0px 50px 20px rgba(0, 0, 0, 0.05);
-}
+box-shadow:         0px 0px 50px 20px rgba(0, 0, 0, 0.05);}
 
-.NW {
-padding: 7px 10px;
-}
-
-.NWA {
-padding: 25px 10px;
-}
 
 .NAV {
 position: absolute;
 right: 4vw;
-top: 4.5vh;
+top: 50%;
+transform: translateY(-50%);
 height: 20px;
 font-family: 'Roboto Mono';
 font-weight: 300;
@@ -270,17 +212,15 @@ position: relative;
 text-align: left;
 font-weight: 100;
 font-size: 16px;
-padding-bottom: 10px;
-}
+padding-bottom: 10px;}
 
 .line {
 position: relative;
 float: right;
 height: 1px;
 background: #333;
-width: 40vw;
-margin-top: 12px;
-}
+width: 35vw;
+margin-top: 12px;}
 
 
 .PBOX {
@@ -288,8 +228,7 @@ max-width: 80vw;
 position: relative;
 margin-left: auto;
 margin-right: auto;
-top: 17vh;
-}
+top: 17vh;}
 
 .P {
 width: 50vh;
@@ -299,43 +238,26 @@ position: relative;
 display: inline-block;
 background-size: 150%;
 background-position: center;
-transition: all .5s ease-in-out;
-}
+transition: all .5s ease-in-out;}
 
-.ONE {
-background-image: url(APP.jpg);
-}
+.ONE {background-image: url(APP.jpg);}
 
-.TWO {
-background-image: url(HUE07.jpg);
-}
+.TWO {background-image: url(HUE07.jpg);}
 
 .THREE {
 background-image: url(CONC01.png);
-background-position: left;
-}
+background-position: left;}
 
 .FOUR {
-background-image: url(E01.png);
-background-position: top;
-}
+background-image: url(BG02.JPG);}
 
-.FIVE {
-background-image: url(CONSBG.gif);
-}
+.FIVE {background-image: url(CONSBG.gif);}
 
-.SIX {
-background-image: url(HANDS.jpg);
-}
-
-.P:hover {
-background-size: 200%;
-}
+.SIX {background-image: url(HANDS.jpg);}
 
 .B {
 height: 20vh;
-background: none;
-}
+background: none;}
 
 .cover {
 position: relative;
@@ -351,14 +273,12 @@ color: #333;
 font-size: 14px;
 font-weight: 300;
 margin: 0;
-opacity: 0;
-}
+opacity: 0;}
 
-.P:hover .cover {
-opacity: 1;
-}
+.P:hover .cover {opacity: 1;}
+
+
 /*-------------------HIRE----------------------*/
-
 
     
 .HIREWRAP {
@@ -368,8 +288,7 @@ top: 100vh;
 position: relative;
 overflow: hidden;
 background-attachment: fixed;
-background-size: cover;
-}
+background-size: cover;}
     
 .HW {
 width: 45vw;
@@ -380,8 +299,7 @@ left: 50%;
 top: 50%;
 -webkit-transform: translate(-50%, -50%);
 -moz-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
-}
+transform: translate(-50%, -50%);}
 
 /*-------------------HIRE----------------------*/
 
@@ -401,17 +319,15 @@ font-weight: 100;
 line-height: 40px;
 text-transform: lowercase;
 line-height: 60px;
-letter-spacing: 1px;
- }
+letter-spacing: 1px;}
     
 i {
 font-size: 24px !important;
-letter-spacing: 15px;
-}
+letter-spacing: 15px;}
+    
+.P:hover {background-size: 200%;}
 
-.APP {
-display: none;
-}
+.APP {display: none;}
     
 } /*---min--*/
 
@@ -428,41 +344,35 @@ display: none;
     
 h1 {
 font-size: 15px;
-line-height: 30px;
-}
+line-height: 30px;}
     
 hi {
 font-family: 'Roboto Mono';
-font-size: 12px;
+font-size: 3vw;
 color: #fefefe;
 font-weight: 400;
 line-height: 40px;
 text-transform: lowercase;
 line-height: 50px;
-letter-spacing: 1px;
- }
+letter-spacing: 1px;}
     
 i {
-font-size: 18px !important;
-letter-spacing: 15px;
-}
+font-size: 2.5vh !important;
+letter-spacing: 15px;}
     
 .hello {
 max-width: 40vh;
-margin-top: 12vh;
-}
+margin-top: 12vh;}
     
 .PORT, .HIREWRAP {
 top: 0;
 -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 -moz-box-shadow:    0px 0px 0px rgba(0, 0, 0, 0);
-box-shadow:         0px 0px 0px rgba(0, 0, 0, 0);
-}
+box-shadow:         0px 0px 0px rgba(0, 0, 0, 0);}
 
 .cover {
 padding-top: 35%;
-padding-bottom: 35%;
-}
+padding-bottom: 35%;}
 
 .APPH {
 margin-top: 0px;
@@ -477,24 +387,23 @@ padding: 0px 10px;
 overflow: hidden;
 -webkit-box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.05);
 -moz-box-shadow:    0px 0px 50px 20px rgba(0, 0, 0, 0.05);
-box-shadow:         0px 0px 50px 20px rgba(0, 0, 0, 0.05);
-}
+box-shadow:         0px 0px 50px 20px rgba(0, 0, 0, 0.05);}
     
 .P {
 width: 40vh;
 height: 30vh;
-margin-top: 30px;
-margin-left: 15px;
-    }
+margin-top: 30px ;
+margin-left: 15px;}
 
-.B {
-height: 8vh;
-}
+.B {height: 8vh;}
     
-.PBOX {
-top: 11vh;
-}
-    
+.PBOX {top: 11vh;}
+
+.NWA {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+    }
     
 .DESC {
 position: relative;
@@ -505,23 +414,17 @@ font-size: 13px;
 text-align: left;
 font-family: 'Roboto Mono';
 font-weight: 100;
-display: inline-block;
-}
+display: inline-block;}
     
 .FEATB {
 width: 45vw;
 font-size: 15px; 
 font-weight: 400;
-text-align: center;
-}
+text-align: center;}
     
-.line {
-width: 0%;
-}
+.line {width: 0%;}
     
-.WEB {
-display: none;
-}
+.WEB { display: none;}
     
 
     
@@ -536,12 +439,10 @@ footer {
 height: 3.5vh;
 background: #222;
 width: 100%;
-text-align:left;
-}
+text-align:left;}
 
 f1 {
 position: relative;
 font-size: 8px;
 left: 15px;
-color: #ddd;
-}
+color: #ddd;}
