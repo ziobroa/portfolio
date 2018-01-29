@@ -290,6 +290,7 @@ width: 100%;
 top: 100vh;
 position: relative;
 overflow: hidden;
+background-color: orangered;
 background-attachment: fixed;
 background-size: cover;}
     
