@@ -75,11 +75,11 @@
     
 <div class="SWRAP">
 <div class="crossfade">
-  <figure></figure>
-  <figure></figure>
-  <figure></figure>
-  <figure></figure>
-  <figure></figure>
+  <figure class="mySlides"></figure>
+  <figure class="mySlides"></figure>
+  <figure class="mySlides"></figure>
+  <figure class="mySlides"></figure>
+  <figure class="mySlides"></figure>
 </div><!--crossfade-->
 </div><!---SWRAP-->
  
@@ -240,7 +240,22 @@ if( scroll_top > navigationx.settings.offsetx ) {
         };
 </script>
 
+<script>
+var slideIndex = 0;
+carousel();
 
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2500); // Change image every 2 seconds
+}    
+</script>
 
 </body>
     
