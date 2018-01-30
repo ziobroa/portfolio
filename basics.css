@@ -85,7 +85,7 @@ background-image: url('C02.png');}
  
 .crossfade > figure:nth-child(3) {
 /*animation-delay: 11s;*/
-background-image: url('C03.jpg');
+background-image: url('C03.JPG');
 background-size: 130%;
 background-position: bottom;}
 
