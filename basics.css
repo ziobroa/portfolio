@@ -285,12 +285,12 @@ opacity: 0;}
 
     
 .HIREWRAP {
-height: 50vh;
+height: 40vh;
 width: 100%;
 top: 100vh;
 position: relative;
 overflow: hidden;
-background-color: #efefef;
+background-color: #333333;
 background-attachment: fixed;
 background-size: cover;}
     
