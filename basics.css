@@ -77,25 +77,25 @@ position: absolute;
 margin-top: 0px;
 margin-left: 0px;}
 
-.crossfade > figure:nth-child(1) { background-image: url('HUEBG2.jpg'); }
+.crossfade > figure:nth-child(1) { background-image: url('C01.jpg'); }
  
 .crossfade > figure:nth-child(2) {
 /*animation-delay: 5s;*/
-background-image: url('hi.png');}
+background-image: url('C02.png');}
  
 .crossfade > figure:nth-child(3) {
 /*animation-delay: 11s;*/
-background-image: url('HUEBG.jpg');
+background-image: url('C03.jpg');
 background-size: 130%;
 background-position: bottom;}
 
 .crossfade > figure:nth-child(4) {
 /*animation-delay: 17s;*/
-background-image: url('CONC01.png');}
+background-image: url('C04.png');}
  
 .crossfade > figure:nth-child(5) {
 /*animation-delay: 23s;*/
-background-image: url('HUE03.jpg');}
+background-image: url('C05.jpg');}
 
 /*
 @keyframes
