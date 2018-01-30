@@ -74,7 +74,7 @@ top: 12vh;}
 .SWRAP {
 width: 40vw;
 height: 100vh;
-background-color: orangered;
+background-color: #efefef;
 background-image: url(E01.png);
 background-position: top;
 background-size: cover;
@@ -103,16 +103,6 @@ left: 50%;
 -moz-transform: translate(-50%);
 transform: translate(-50%);}
 
-.dot {animation: pulse .8s infinite;}
-
-@keyframes pulse {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 
 .hlogo {
 width: 10vh;
@@ -148,26 +138,18 @@ font-size: 14px;
 word-spacing: 20px;}
 
 
-.FEATB {
-width: 54vw;
-position: relative;
+.box {
+color: #333;
 text-align: left;
-font-weight: 100;
-font-size: 16px;
-padding-bottom: 10px;}
+border-bottom: 1px solid #333;
+transition: .5s;
+font-weight: 300;
+}
 
-.line {
-position: relative;
-float: right;
-height: 1px;
-background: #333;
-width: 35vw;
-margin-top: 12px;}
-
-
-.B {
-height: 20vh;
-background: none;}
+.box:hover {
+border-bottom: 1px solid #aaa;
+color: #aaa;
+}
 
 
 /*-----------------------------------------------------*/
@@ -194,6 +176,13 @@ letter-spacing: 15px;}
 .P:hover {background-size: 200%;}
 
 .APP {display: none;}
+    
+.box {
+width: 20vh;
+height: 5.66vh;
+font-size: 1.8vh;
+padding: 1.3vh;
+}
     
 } /*---min--*/
 
@@ -249,7 +238,6 @@ height: 30vh;}
 background-image: url(EXBG1.jpg);
 background-position: center;
     }
-  
     
 .cover {
 padding-top: 35%;
@@ -276,7 +264,6 @@ height: 30vh;
 margin-top: 30px ;
 margin-left: 15px;}
 
-.B {height: 8vh;}
     
 .PBOX {top: 11vh;}
 
@@ -286,24 +273,12 @@ top: 50%;
 transform: translateY(-50%);
 }
     
-.DESC {
-position: relative;
-margin-bottom: 0px;
-width: 40vh;
-height: 20px;
-font-size: 13px;
-text-align: left;
-font-family: 'Roboto Mono';
-font-weight: 100;
-display: inline-block;}
-    
-.FEATB {
-width: 45vw;
-font-size: 15px; 
-font-weight: 400;
-text-align: center;}
-    
-.line {width: 0%;}
+.box {
+width: 18vh;
+height: 5vh;
+font-size: 1.8vh;
+}    
+
     
 .WEB { display: none;}
     
