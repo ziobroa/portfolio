@@ -66,7 +66,7 @@ b {font-weight: 700;}
 
 .INTRO {
 width: 40vw;
-height: 100vh;
+min-height: 100vh;
 position: fixed;
 background: #fefefe;
 top: 12vh;}
@@ -84,7 +84,7 @@ overflow:hidden;}
 
 .PORT {
 width: 60vw;
-height: 88vh;
+min-height: 88vh;
 float: right;
 position: relative;
 background: #fefefe;

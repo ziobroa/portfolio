@@ -27,6 +27,7 @@ img {
 width: 100%;
 height: auto;}
 
+
 /*------------------- TEXT ----------------------*/
 
 a {
@@ -123,19 +124,31 @@ opacity: 0;
 width: 100%;
 height: 100vh;
 position: fixed;
-background: #fefefe;
+background-color: #fefefe;
+background-image: url(s02.jpg);
 top: 0px;}
 
-.SWRAP {
+.SWRAP, #vidbg {
 width: 100vw;
 height: 100vh;
 position: absolute;
 border-radius: 2px;
 overflow:hidden;}
 
+#vidbg {
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+width:auto;
+height: auto;
+z-index: 0;
+}
+
 .inlogo {
-width: 50vh;
-height: 50vh;
+width: 20vh;
+height: 20vh;
 position: absolute;
 z-index: 9999;
 margin: 0px;
