@@ -31,12 +31,12 @@ height: auto;}
 
 a {
 text-decoration: none;
-color: #333;
+color: #444;
 transition: .5s;
 opacity: 1;
 cursor: crosshair;}
 
-a:hover {opacity: .2;}
+a:hover {opacity: .2; color: #aaa;}
 
 a.one:hover {opacity: 1;}
 
@@ -136,20 +136,6 @@ font-family: 'Roboto Mono';
 font-weight: 300;
 font-size: 14px;
 word-spacing: 20px;}
-
-
-.box {
-color: #333;
-text-align: left;
-border-bottom: 1px solid #333;
-transition: .5s;
-font-weight: 300;
-}
-
-.box:hover {
-border-bottom: 1px solid #aaa;
-color: #aaa;
-}
 
 
 /*-----------------------------------------------------*/
