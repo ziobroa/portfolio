@@ -110,7 +110,7 @@ height: 10vh;
 position: absolute;
 top: 50%;
 transform: translateY(-50%);
-left: 2%;}
+left: 10%;}
 
 #HEAD {
 margin-top: 0px;
@@ -128,7 +128,7 @@ box-shadow:         0px 0px 50px 20px rgba(0, 0, 0, 0.05);}
 
 .NAV {
 position: absolute;
-right: 4vw;
+right: 10vw;
 top: 50%;
 transform: translateY(-50%);
 height: 20px;
