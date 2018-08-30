@@ -205,6 +205,17 @@ z-index: 999;
 position: fixed;
 overflow: hidden;}
 
+#HEAD {animation: head 1s ease-in;}
+
+@keyframes head {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
 
 .BOTTOM {
 z-index: 999999;
@@ -215,14 +226,36 @@ height: 13vh;
 bottom: 0;
 }
 
+.BOTTOM {animation: bottom 1s ease-in;}
+
+@keyframes bottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
 .LEFT {
 z-index: 999;
 position: absolute;
 background: #fefefe;
 height: 100%;
 width: 13vh;
-left: 0;
 }
+
+.LEFT {animation: left 1s ease-in;}
+
+@keyframes left {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
 
 .RIGHT {
 z-index: 999;
@@ -231,6 +264,17 @@ background: #fefefe;
 height: 100%;
 width: 13vh;
 right: 0;
+}
+
+.RIGHT {animation: right 1s ease-in;}
+
+@keyframes right {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 
 
@@ -358,7 +402,6 @@ font-size: 17px;
 color: #333333;
 font-weight: 100;
 line-height: 40px;
-line-height: 60px;
 letter-spacing: 1px;}
     
 i {
