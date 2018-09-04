@@ -51,11 +51,13 @@
 <!------------------------- HEADER -------------------------------->     
 <!------------------------- HEADER -------------------------------->
  
-<div class="BOTTOM"></div> 
-<div class="LEFT"></div> 
-<div class="RIGHT"></div> 
-    
-<div id="HEAD">
+<div id="BOTTOM" class="animate start"></div>
+
+<div id="LEFT" class="animate start"></div>
+
+<div id="RIGHT" class="animate start"></div>
+
+<div id="HEAD" class="animate start">
 <a href="/"><div class="hlogo"><img src="Logo3@300x.png"></div></a>
  <div class="NAV">
 <div align="right">
@@ -261,7 +263,13 @@ Featured Work
     
 <!------------------------- HIRE ---------------------------------> 
 <!------------------------- HIRE ---------------------------------> 
-    
+    <script>
+    setTimeout(function(){
+
+  $(".animate").toggleClass("start end");
+
+}, 700); // This is time to delay in milliseconds
+    </script>
       
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
     <!-- this makes the year in your footer always the current year -->
