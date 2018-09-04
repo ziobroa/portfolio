@@ -129,6 +129,8 @@ top: 0px;}
 .SWRAP, #vidbg {
 width: 100vw;
 height: 100vh;
+top: 0;
+left: 0;
 position: absolute;
 border-radius: 2px;
 overflow:hidden;}
@@ -160,21 +162,13 @@ transform: translate(-50%, -50%);}
 width: 100%;
 position: relative;
 background: #fefefe;
-top: 100vh;
-padding-top: 12vh;
+top: 97vh;
+padding-top: 0vh;
 padding-bottom: 12vh;
 -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
 -moz-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
 box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);}
 
-.hello {
-max-width: 55vw;
-position: relative;
-left: 50%;
-margin-top: 10vh;
--webkit-transform: translate(-50%);
--moz-transform: translate(-50%);
-transform: translate(-50%);}
 
 .dot {animation: pulse .8s infinite;}
 
@@ -196,8 +190,8 @@ transform: translateY(-50%);
 left: 10%;}
 
 #HEAD {
-margin-top: 0px;
-margin-left:0px;
+top: 0px;
+left:0px;
 background: #fefefe;
 width: 100%;
 height: 13vh;
@@ -238,6 +232,7 @@ bottom: 0;
 }
 
 .LEFT {
+top: 0;
 z-index: 999;
 position: absolute;
 background: #fefefe;
@@ -264,6 +259,7 @@ background: #fefefe;
 height: 100%;
 width: 13vh;
 right: 0;
+top: 0;
 }
 
 .RIGHT {animation: right 1s ease-in;}
@@ -289,22 +285,28 @@ font-weight: 300;
 font-size: 14px;
 word-spacing: 20px;}
 
+.hiwrap {
+width: 40vw;
+position: absolute;
+left: 12%;
+bottom: 15%; 
+z-index: 99999;
+}
+
+.desktop {
+max-width: 62vw;
+padding-bottom: 10vh;
+    }
+
 
 .FEATB {
-width: 54vw;
+width: 100%;
 position: relative;
-text-align: left;
+margin-left: auto;
+margin-right: auto;
 font-weight: 100;
 font-size: 16px;
 padding-bottom: 10px;}
-
-.line {
-position: relative;
-float: right;
-height: 1px;
-background: #333;
-width: 35vw;
-margin-top: 12px;}
 
 
 .PBOX {
@@ -312,7 +314,7 @@ max-width: 80vw;
 position: relative;
 margin-left: auto;
 margin-right: auto;
-top: 17vh;}
+top: 5vh;}
 
 .P {
 width: 50vh;
@@ -368,7 +370,7 @@ opacity: 0;}
 .HIREWRAP {
 height: 28vh;
 width: 100%;
-top: 100vh;
+top: 97vh;
 position: relative;
 overflow: hidden;
 background-color: #fafafa;
@@ -442,9 +444,16 @@ i {
 font-size: 2.5vh !important;
 letter-spacing: 15px;}
     
+    
 .hello {
-max-width: 40vh;
-margin-top: 12vh;}
+max-width: 70vw;
+}
+
+.mobile {
+margin-top: 10vh;
+margin-left: auto;
+margin-right: auto;
+    }
     
 .PORT, .HIREWRAP {
 top: 0;
@@ -472,8 +481,10 @@ overflow: hidden;
 box-shadow:         0px 0px 50px 20px rgba(0, 0, 0, 0.05);}
     
 .P {
+position: relative;
 width: 40vh;
 height: 30vh;
+overflow: hidden;
 margin-top: 30px ;
 margin-left: 15px;}
 
@@ -486,17 +497,30 @@ margin-left: 15px;}
   top: 50%;
   transform: translateY(-50%);
     }
+   
+    .d_wrap {
+    width: 100%;
+    height: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 0p;
+    }    
     
 .DESC {
-position: relative;
-margin-bottom: 0px;
+position: absolute;
+margin-left: 0;
+margin-bottom: 0;
 width: 40vh;
 height: 20px;
-font-size: 13px;
+color: white;
+font-size: 11px;
 text-align: left;
 font-family: 'Roboto Mono';
-font-weight: 100;
-display: inline-block;}
+font-weight: 100;}
     
 .FEATB {
 width: 45vw;
