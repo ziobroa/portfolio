@@ -190,16 +190,19 @@ transform: translateY(-50%);
 left: 10%;}
 
 #HEAD {
-top: 0px;
-left:0px;
+top: 0;
+left:0;
 background: #fefefe;
 width: 100%;
 height: 13vh;
 z-index: 999;
 position: fixed;
-overflow: hidden;}
-
-#HEAD {animation: head 1s ease-in;}
+overflow: hidden;
+-webkit-animation: head 1s ease-in; /* Safari 4.0 - 8.0 */
+-webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+animation: head 1s ease-in;
+animation-delay: 2s;
+}
 
 @keyframes head {
   0% {
@@ -218,9 +221,11 @@ background: #fefefe;
 width: 100%;
 height: 13vh;
 bottom: 0;
+-webkit-animation: bottom 1s ease-in; /* Safari 4.0 - 8.0 */
+-webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+animation: bottom 1s ease-in;
+animation-delay: 2s;
 }
-
-.BOTTOM {animation: bottom 1s ease-in;}
 
 @keyframes bottom {
   0% {
@@ -233,14 +238,17 @@ bottom: 0;
 
 .LEFT {
 top: 0;
-z-index: 999;
+z-index: 10;
 position: absolute;
 background: #fefefe;
 height: 100%;
 width: 13vh;
+-webkit-animation: left 1s ease-in; /* Safari 4.0 - 8.0 */
+-webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+animation: left 1s ease-in;
+animation-delay: 2s;
 }
 
-.LEFT {animation: left 1s ease-in;}
 
 @keyframes left {
   0% {
@@ -260,9 +268,11 @@ height: 100%;
 width: 13vh;
 right: 0;
 top: 0;
+-webkit-animation: right 1s ease-in; /* Safari 4.0 - 8.0 */
+-webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+animation: right 1s ease-in;
+animation-delay: 2s;
 }
-
-.RIGHT {animation: right 1s ease-in;}
 
 @keyframes right {
   0% {
@@ -310,14 +320,14 @@ padding-bottom: 10px;}
 
 
 .PBOX {
-max-width: 80vw;
+max-width: 90vw;
 position: relative;
 margin-left: auto;
 margin-right: auto;
 top: 5vh;}
 
 .P {
-width: 50vh;
+width: 70vh;
 height: 50vh;
 margin: 25px;
 position: relative;
@@ -342,7 +352,7 @@ background-image: url(BG02.JPG);}
 .SIX {background-image: url(Gif.gif);}
 
 .B {
-height: 20vh;
+height: 5vh;
 background: none;}
 
 .cover {
@@ -351,7 +361,7 @@ background: rgba(255, 255, 255, 0.9);
 transition: all .5s ease-in-out;
 width: 100%;
 height: 100%;
-padding-top: 50%;
+padding-top: 35%;
 padding-bottom: 50%;
 text-align: center;
 font-family: 'Roboto Mono';
