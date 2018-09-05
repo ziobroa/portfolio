@@ -268,6 +268,7 @@ font-weight: 300;
 font-size: 14px;
 word-spacing: 20px;}
 
+
 #hiwrap {
 background: rgba(255,255,255,.6);
 width: 100%;
@@ -275,6 +276,7 @@ height: 100%;
 position: absolute;
 margin: 0;
 }
+
 
 
 .desktop {
@@ -285,9 +287,17 @@ top: 50%;
 -webkit-transform: translate(-50%, -50%);
 -moz-transform: translate(-50%, -50%);
 transform: translate(-50%, -50%);
-    }
+animation: fadein 2s ease-in;
+}
 
-
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 
 .FEATB {
