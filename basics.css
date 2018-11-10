@@ -37,7 +37,7 @@ transition: .5s;
 opacity: 1;
 cursor: crosshair;}
 
-a:hover {opacity: .2;}
+a:hover {opacity: .4;}
 
 a.one:hover {opacity: 1;}
 
@@ -133,7 +133,8 @@ top: 0;
 left: 0;
 position: absolute;
 border-radius: 2px;
-overflow:hidden;}
+overflow:hidden;
+}
 
 #vidbg {
 position: fixed;
@@ -267,6 +268,42 @@ font-family: 'Roboto Mono';
 font-weight: 300;
 font-size: 14px;
 word-spacing: 20px;}
+
+
+.go a:before,
+.go a:after {
+    display: inline-block;
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+    transition: transform 0.3s, opacity 0.2s;
+}
+
+.go a:before {
+    margin-right: 5px;
+    content: '[';
+    -webkit-transform: translate(20px);
+    -moz-transform: translate(20px);
+    transform: translate(20px);
+}
+
+.go a:after {
+    margin-left: 5px;
+    content: ']';
+    -webkit-transform: translate(-20px);
+    -moz-transform: translate(-20px);
+    transform: translate(-20px);
+}
+
+.go a:hover:before,
+.go a:hover:after,
+.go a:focus:before,
+.go a:focus:after {
+    opacity: 1;
+    -webkit-transform: translate(0px);
+    -moz-transform: translate(0px);
+    transform: translate(0px);
+}
 
 
 #hiwrap {
