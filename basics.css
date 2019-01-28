@@ -190,6 +190,11 @@ top: 50%;
 transform: translateY(-50%);
 left: 10%;}
 
+.hlogo img {
+width: 75%;
+margin-top: 20%;
+}
+
 
 .animate {
   background: #fefefe;
