@@ -105,17 +105,13 @@ transform: translate(-50%);}
 
 
 .hlogo {
-width: 10vh;
-height: 10vh;
+width: 7vh;
+height: 7vh;
 position: absolute;
-top: 50%;
+top: 55%;
 transform: translateY(-50%);
 left: 10%;}
 
-.hlogo img {
-width: 75%;
-margin-top: 20%;
-}
 
 #HEAD {
 margin-top: 0px;
