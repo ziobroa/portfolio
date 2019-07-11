@@ -90,7 +90,7 @@ background-image: url('C03.JPG');}
 
 .crossfade > figure:nth-child(4) {
 /*animation-delay: 17s;*/
-background-image: url('APP.jpg');}
+background-image: url('aurorange.jpg');}
  
 .crossfade > figure:nth-child(5) {
 /*animation-delay: 23s;*/
@@ -364,7 +364,7 @@ background-size: 150%;
 background-position: center;
 transition: all .5s ease-in-out;}
 
-.ONE {background-image: url(APP.jpg);}
+.ONE {background-image: url(national.jpg);}
 
 .TWO {background-image: url(HUE07.jpg);}
 
