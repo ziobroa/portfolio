@@ -42,7 +42,7 @@ a:hover {opacity: .4;}
 a.one:hover {opacity: 1;}
 
 h1 {
-font-family: 'Roboto Mono';
+font-family: 'Roboto Mono', monospace;
 font-size: 30px;
 color: #222;
 font-weight: 500;
@@ -264,7 +264,7 @@ right: 10vw;
 top: 50%;
 transform: translateY(-50%);
 height: 20px;
-font-family: 'Roboto Mono';
+font-family: 'Roboto Mono', monospace;
 font-weight: 300;
 font-size: 11px;
 word-spacing: 15px;}
@@ -347,6 +347,83 @@ font-size: 16px;
 padding-bottom: 10px;}
 
 
+/* not yet 
+
+.filter_wrap {
+position: relative;
+width: 72vw;
+margin: 0;
+height: 7vh;
+}
+
+
+input[type="radio"] { display: none; }
+
+label {
+float: left;
+  padding-right: 2%;
+  text-align: left;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #000000;color: #222222;
+  transition: .3s ease-in-out;
+}
+
+label:hover {
+color: #cccccc;
+}
+
+
+
+input[type="radio"][id="blue"]:checked + label { text-decoration: underline; }
+ 
+input[type="radio"][id="blue"]:checked ~ #red,
+input[type="radio"][id="blue"]:checked ~ #green,
+input[type="radio"][id="blue"]:checked ~ #cyan {
+  width: 0;
+  height: 0;
+  margin: 0;
+  opacity: 0;
+}
+ 
+input[type="radio"][id="red"]:checked + label { text-decoration: underline; }
+ 
+input[type="radio"][id="red"]:checked ~ .blue,
+input[type="radio"][id="red"]:checked ~ .green,
+input[type="radio"][id="red"]:checked ~ .cyan {
+  width: 0;
+  height: 0;
+  margin: 0;
+  opacity: 0;
+}
+ 
+input[type="radio"][id="green"]:checked + label { text-decoration: underline; }
+ 
+input[type="radio"][id="green"]:checked ~ .blue,
+input[type="radio"][id="green"]:checked ~ .red
+input[type="radio"][id="green"]:checked ~ .cyan {
+  width: 0;
+  height: 0;
+  margin: 0;
+  opacity: 0;
+}
+
+input[type="radio"][id="cyan"]:checked + label { text-decoration: underline; }
+ 
+input[type="radio"][id="cyan"]:checked ~ .blue,
+input[type="radio"][id="cyan"]:checked ~ .red
+input[type="radio"][id="cyan"]:checked ~ .green {
+  width: 0;
+  height: 0;
+  margin: 0;
+  opacity: 0;
+}
+
+*/
+
+
 .PBOX {
 max-width: 90vw;
 position: relative;
@@ -358,6 +435,7 @@ top: 5vh;}
 width: 70vh;
 height: 50vh;
 margin: 25px;
+overflow: hidden;
 position: relative;
 display: inline-block;
 background-size: 150%;
@@ -366,7 +444,7 @@ transition: all .5s ease-in-out;}
 
 .ONE {background-image: url(national.jpg);}
 
-.TWO {background-image: url(HUE07.jpg);}
+.TWO {background-image: url(seasonal.jpg);}
 
 .THREE {
 background-image: url(C04.png);
@@ -392,7 +470,7 @@ height: 100%;
 padding-top: 35%;
 padding-bottom: 50%;
 text-align: center;
-font-family: 'Roboto Mono';
+font-family: 'Roboto Mono', monospace;
 color: #333;
 font-size: 14px;
 font-weight: 300;
@@ -437,7 +515,7 @@ transform: translate(-50%, -50%);}
     
     
 hi {
-font-family: 'Roboto Mono';
+font-family: 'Roboto Mono', monospace;
 font-size: 13px;
 color: #333333;
 font-weight: 100;
@@ -470,7 +548,7 @@ font-size: 15px;
 line-height: 30px;}
     
 hi {
-font-family: 'Roboto Mono';
+font-family: 'Roboto Mono', monospace;
 font-size: 3vw;
 color: #333333;
 font-weight: 400;
@@ -557,7 +635,7 @@ height: 20px;
 color: white;
 font-size: 11px;
 text-align: left;
-font-family: 'Roboto Mono';
+font-family: 'Roboto Mono', monospace;
 font-weight: 100;}
     
 .FEATB {
