@@ -474,8 +474,7 @@ background: rgba(255, 255, 255, 0.9);
 transition: all .5s ease-in-out;
 width: 100%;
 height: 100%;
-padding-top: 28%;
-padding-bottom: 32%;
+padding: 28% 0% 32% 0%;
 text-align: center;
 font-family: 'Roboto Mono', monospace;
 color: #333;
@@ -491,14 +490,12 @@ opacity: 0;}
 
     
 .HIREWRAP {
-height: 28vh;
+height: 20vh;
 width: 100%;
 top: 97vh;
 position: relative;
 overflow: hidden;
-background-color: #fafafa;
-background-attachment: fixed;
-background-size: cover;}
+background-color: #fafafa;}
     
 .HW {
 width: 45vw;
@@ -530,7 +527,7 @@ line-height: 40px;
 letter-spacing: 1px;}
     
 i {
-font-size: 24px !important;
+font-size: 1.5vw !important;
 letter-spacing: 15px;}
     
 .P:hover {background-size: 200%;}
@@ -552,20 +549,19 @@ letter-spacing: 15px;}
     
 h1 {
 font-size: 15px;
-line-height: 30px;}
+line-height: 25px;}
 
     
 hi {
 font-family: 'Roboto Mono', monospace;
-font-size: 3vw;
+font-size: 12px;
 color: #333333;
 font-weight: 400;
-line-height: 40px;
-line-height: 50px;
+line-height: 30px;
 letter-spacing: 1px;}
     
 i {
-font-size: 2.5vh !important;
+font-size: 16px !important;
 letter-spacing: 15px;}
     
     
@@ -586,8 +582,7 @@ top: 0;
 box-shadow:         0px 0px 0px rgba(0, 0, 0, 0);}
 
 .cover {
-padding-top: 35%;
-padding-bottom: 35%;}
+padding: 35% 0% 35% 0%;}
 
 .APPH {
 margin-top: 0px;
@@ -622,16 +617,14 @@ margin-left: 15px;}
   transform: translateY(-50%);
     }
    
-    .d_wrap {
-    width: 100%;
-    height: 15%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-left: 3%;
-    background: white;
-    position: absolute;
-    bottom: 0;
-    left: 0p;
+.d_wrap {
+width: 100%;
+height: 15%;
+padding: 3% 3% 3% 3%;
+background: white;
+position: absolute;
+bottom: 0;
+left: 0p;
     }    
     
 .DESC {
@@ -640,7 +633,6 @@ margin-left: 0;
 margin-bottom: 0;
 width: 40vh;
 height: 20px;
-color: black;
 font-size: 11px;
 text-align: left;
 font-family: 'Roboto Mono', monospace;
@@ -664,15 +656,3 @@ text-align: center;}
 /*-----------------------------------------------------*/
 /*------------------- LIL SCREEN ----------------------*/
 /*-----------------------------------------------------*/
-
-footer {
-height: 3.5vh;
-background: #222;
-width: 100%;
-text-align:left;}
-
-f1 {
-position: relative;
-font-size: 8px;
-left: 15px;
-color: #ddd;}
