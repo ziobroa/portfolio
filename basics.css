@@ -20,12 +20,21 @@ html {
 body {
 margin: 0;
 background: #fefefe;
-font-family: 'Roboto Mono', Helvetica, Arial, sans-serif;
-font-size: 17px;}
+font-family: /* 'Roboto Mono', monospace*/ Helvetica, Arial, sans-serif;
+font-size: 17px;
+}
 
 img {
 width: 100%;
 height: auto;}
+
+
+@font-face {
+font-family: "Halibut";
+src: url("/fonts/HalibutSerif-Variable.ttf");
+src:
+url("/fonts/HalibutSerif-Variable.ttf") format("truetype"),
+}
 
 
 /*------------------- TEXT ----------------------*/
@@ -41,19 +50,30 @@ a:hover {opacity: .4;}
 
 a.one:hover {opacity: 1;}
 
+
+h0 {
+font-family: 'Halibut', sans-serif; 
+font-size: 16px;
+line-height: 50px;
+font-weight: 100;
+margin: 0;}
+
+
 h1 {
-font-family: 'Roboto Mono', monospace;
-font-size: 30px;
-font-weight: 500;
-line-height: 48px;
-font-weight: 100;}
+font-family: 'Halibut', sans-serif; 
+font-size: 36px;
+line-height: 50px;
+font-weight: 100;
+margin: 0;}
 
 h2 {
 font-weight: 300;}
     
 h3 {
 font-size: 14px;
-font-weight: 200;
+font-weight: 400;
+margin: 0;
+word-spacing: 4px;
     }
 
 
@@ -65,6 +85,14 @@ color: #888;}
 
 
 b {font-weight: 700;}
+
+.underline {
+width: 60px;
+height: 1px;
+background: black;
+margin-bottom: 1vh;
+margin-top: .5vh;
+}
 
 /*------------------- TEXT ----------------------*/
 
@@ -190,8 +218,6 @@ box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);}
 }
 
 .hlogo {
-width: 7vh;
-height: 7vh;
 position: absolute;
 top: 55%;
 transform: translateY(-50%);
@@ -263,15 +289,13 @@ left: 10%;}
   transform: translateX(0);
 }
 
-
-
 .NAV {
 position: absolute;
 right: 10vw;
 top: 50%;
 transform: translateY(-50%);
 height: 20px;
-font-family: 'Roboto Mono', monospace;
+font-family: /* 'Roboto Mono', monospace*/ Helvetica;
 font-weight: 300;
 font-size: 11px;
 word-spacing: 15px;}
@@ -476,7 +500,7 @@ width: 100%;
 height: 100%;
 padding: 28% 0% 32% 0%;
 text-align: center;
-font-family: 'Roboto Mono', monospace;
+font-family:  /* 'Roboto Mono', monospace*/ Helvetica;
 color: #333;
 font-size: 14px;
 line-height: 10px;
@@ -525,7 +549,7 @@ text-transform: uppercase;
     
     
 hi {
-font-family: 'Roboto Mono', monospace;
+font-family: /* 'Roboto Mono', monospace*/ Helvetica;
 font-size: 11px;
 color: #333333;
 font-weight: 100;
@@ -559,7 +583,7 @@ line-height: 25px;}
 
     
 hi {
-font-family: 'Roboto Mono', monospace;
+font-family: /* 'Roboto Mono', monospace*/ Helvetica;
 font-size: 10px;
 color: #333333;
 font-weight: 400;
@@ -646,7 +670,7 @@ width: 40vh;
 height: 20px;
 font-size: 11px;
 text-align: left;
-font-family: 'Roboto Mono', monospace;
+font-family: /* 'Roboto Mono', monospace*/ Helvetica;
 font-weight: 100;}
     
 .FEATB {

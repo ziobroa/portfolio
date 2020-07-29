@@ -20,12 +20,19 @@ html {
 body {
 margin: 0;
 background: #fefefe;
-font-family: 'Roboto Mono', Helvetica, Arial, sans-serif;
+font-family: /* 'Roboto Mono', monospace*/ Helvetica, Arial, sans-serif;
 font-size: 17px;}
 
 img {
 width: 100%;
 height: auto;}
+
+@font-face {
+font-family: "Halibut";
+src: url("/fonts/HalibutSerif-Variable.ttf");
+src:
+url("/fonts/HalibutSerif-Variable.ttf") format("truetype"),
+}
 
 /*------------------- TEXT ----------------------*/
 
@@ -40,8 +47,15 @@ a:hover {opacity: .4; color: #aaa;}
 
 a.one:hover {opacity: 1;}
 
+h0 {
+font-family: 'Halibut', sans-serif; 
+font-size: 16px;
+line-height: 50px;
+font-weight: 100;
+margin: 0;}
+
 h1 {
-font-family: 'Roboto Mono';
+font-family: /* 'Roboto Mono', monospace*/ Helvetica;
 font-size: 30px;
 color: #222;
 font-weight: 500;
@@ -105,8 +119,6 @@ transform: translate(-50%);}
 
 
 .hlogo {
-width: 7vh;
-height: 7vh;
 position: absolute;
 top: 55%;
 transform: translateY(-50%);
@@ -133,7 +145,7 @@ right: 10vw;
 top: 50%;
 transform: translateY(-50%);
 height: 20px;
-font-family: 'Roboto Mono';
+font-family: /* 'Roboto Mono', monospace*/ Helvetica;
 font-weight: 300;
 font-size: 11px;
 word-spacing: 15px;}
@@ -182,7 +194,7 @@ word-spacing: 15px;}
     
     
 hi {
-font-family: 'Roboto Mono';
+font-family: /* 'Roboto Mono', monospace*/ Helvetica;
 font-size: 17px;
 color: #fefefe;
 font-weight: 100;
@@ -224,7 +236,7 @@ font-size: 15px;
 line-height: 30px;}
     
 hi {
-font-family: 'Roboto Mono';
+font-family: /* 'Roboto Mono', monospace*/ Helvetica;
 font-size: 3vw;
 color: #fefefe;
 font-weight: 400;
