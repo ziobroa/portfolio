@@ -67,13 +67,22 @@ font-weight: 100;
 margin: 0;}
 
 h2 {
-font-weight: 300;}
+font-family: /* 'Roboto Mono', monospace*/ Helvetica, Arial, sans-serif;
+font-size: 24px;
+font-weight: 300;
+line-height: 10px;}
     
 h3 {
 font-size: 14px;
 font-weight: 400;
 margin: 0;
 word-spacing: 4px;
+    }
+
+h4 {
+font-size: 14px;
+font-weight: 100;
+margin: 0;
     }
 
 
@@ -560,7 +569,7 @@ i {
 font-size: 1.5vw !important;
 letter-spacing: 15px;}
     
-.P:hover {background-size: 200%;}
+.P:hover {background-size: 155%;}
 
 .APP {display: none;}
     
