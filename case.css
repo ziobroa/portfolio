@@ -56,8 +56,9 @@ font-weight: 100;
 margin: 0;}
 
 h1 {
-font-family: /* 'Roboto Mono', monospace*/ Helvetica;
-font-size: 14px;
+font-family: 'Halibut', Helvetica;
+font-size: 16px;
+letter-spacing: 1px;
 font-weight: 300;}
 
 
@@ -190,13 +191,19 @@ padding-bottom: 4%;
 padding: 8vh 0vh 8vh 0vh;
 }
 
+.section {
+text-align: center;
+padding: 0vw 10vw 0vw 10vw;
+}
+  
+
 li {
 list-style: none;
 display: inline-block;
 margin: 0% 2% 2% 2%;
 text-transform: uppercase;
 font-weight: 100;
-font-size: 15px;
+font-size: 12px;
 color: #aaa;
 text-align: center;
 }
@@ -254,10 +261,9 @@ text-align: left;
 }
     
     
-    
 h1 {
-font-family: /* 'Roboto Mono', monospace*/ Helvetica;
-font-size: 13px;
+font-family: 'Halibut', Helvetica;
+font-size: 14px;
 font-weight: 300;}
 
 
@@ -265,6 +271,6 @@ p {
 font-size: 11px;
 font-weight: 200;
 line-height: 22px;
-color: #333;}
+color: #333;    }
     
 }
