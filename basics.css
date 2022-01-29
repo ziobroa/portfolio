@@ -1,22 +1,3 @@
-* {
--webkit-box-sizing: inherit;
--moz-box-sizing: inherit;
-box-sizing: inherit;}
-
-html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;}
-
-@keyframes fadeInOpacity {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
 body {
 margin: 0;
 background: #fefefe;
@@ -61,8 +42,8 @@ margin: 0;}
 
 h1 {
 font-family: 'Halibut', sans-serif; 
-font-size: 34px;
-line-height: 46px;
+font-size: 36px;
+line-height: 48px;
 font-weight: 100;
 margin: 0;}
 
@@ -164,32 +145,13 @@ opacity: 0;
 
 .INTRO {
 width: 100%;
-height: 100vh;
-position: fixed;
+height: 100%;
+position: relative;
 background-color: #fefefe;
 background-image: url(plaslap.jpg);
 top: 0px;}
 
-.SWRAP, #vidbg {
-width: 100vw;
-height: 100vh;
-top: 0;
-left: 0;
-position: absolute;
-border-radius: 2px;
-overflow:hidden;
-}
 
-#vidbg {
-position: fixed;
-right: 0;
-bottom: 0;
-min-width: 100%;
-min-height: 100%;
-width:auto;
-height: auto;
-z-index: 0;
-}
 
 .inlogo {
 width: 20vh;
@@ -204,15 +166,13 @@ top: 50%;
 transform: translate(-50%, -50%);}
 
 .PORT {
-width: 100%;
+width: 83vw;
 position: relative;
 background: #fefefe;
-top: 97vh;
-padding-top: 0vh;
-padding-bottom: 12vh;
--webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
--moz-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);}
+margin-top: 0;
+margin-left: 9vw;
+padding-bottom: 2vh;
+}
 
 
 .dot {animation: pulse .8s infinite;}
@@ -241,141 +201,68 @@ left: 10%;}
   z-index: 999;
 }
 
-#HEAD {
-  height: 13vh;
- position: fixed;
+.head {
+height: 13vh;
+width: 100vw;
+ position: relative;
   top: 0;
   left: 0;
   right: 0;
 }
 
-#RIGHT {
-  width: 13vh;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-
-#BOTTOM {
-  height: 13vh;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-#LEFT {
-  width: 13vh;
-  left: 0;
-  top: 0;
-  bottom: 0;
-}
-
-#HEAD.start {
-  transform: translateY(-100%);
-}
-#HEAD.end {
-  transform: translateY(0);
-}
-
-#LEFT.start {
-  transform: translateX(-100%);
-}
-#LEFT.end {
-  transform: translateY(0);
-}
-
-#BOTTOM.start {
-  transform: translateY(100%);
-}
-#BOTTOM.end {
-  transform: translateY(0);
-}
-
-#RIGHT.start {
-  transform: translateX(100%);
-}
-#RIGHT.end {
-  transform: translateX(0);
-}
 
 .NAV {
 position: absolute;
-right: 10vw;
-top: 50%;
-transform: translateY(-50%);
+right: 9vw;
+top: 6.5vh;
 height: 20px;
 font-family: /* 'Roboto Mono', monospace*/ Helvetica;
-font-weight: 300;
 font-size: 11px;
+letter-spacing: 1px;
 word-spacing: 15px;}
 
 
-.go a:before,
-.go a:after {
-    display: inline-block;
-    opacity: 0;
-    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
-    -moz-transition: -moz-transform 0.3s, opacity 0.2s;
-    transition: transform 0.3s, opacity 0.2s;
-}
-
-.go a:before {
-    margin-right: 5px;
-    content: '[';
-    -webkit-transform: translate(20px);
-    -moz-transform: translate(20px);
-    transform: translate(20px);
-}
-
-.go a:after {
-    margin-left: 5px;
-    content: ']';
-    -webkit-transform: translate(-20px);
-    -moz-transform: translate(-20px);
-    transform: translate(-20px);
-}
-
-.go a:hover:before,
-.go a:hover:after,
-.go a:focus:before,
-.go a:focus:after {
-    opacity: 1;
-    -webkit-transform: translate(0px);
-    -moz-transform: translate(0px);
-    transform: translate(0px);
-}
 
 
 #hiwrap {
-background: rgba(255, 255, 255, 0.80);
 width: 100%;
-height: 100%;
-position: absolute;
+padding-top: 3vh;
+padding-bottom: 3vh;
+position: relative;
 margin: 0;
 color: black;
+background: white;
 }
 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+float: left;
+padding-right:14px;
+padding-top: 15px;
+text-transform: uppercase;
+font-size: 11px;
+letter-spacing: 1px;
+font-weight: 600;
+text-decoration: underline;
+
+}
 
 
 .desktop {
-position: absolute;
-max-width: 62vw;
-left: 50%;
-top: 50%;
--webkit-transform: translate(-50%, -50%);
--moz-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
-animation: fadein 2s ease-in;
+position: relative;
+max-width: 50vw;
+left: 10%;
+top: 0%;  
 }
 
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+
 
 
 .FEATB {
@@ -388,82 +275,6 @@ font-size: 16px;
 padding-bottom: 10px;}
 
 
-/* not yet 
-
-.filter_wrap {
-position: relative;
-width: 72vw;
-margin: 0;
-height: 7vh;
-}
-
-
-input[type="radio"] { display: none; }
-
-label {
-float: left;
-  padding-right: 2%;
-  text-align: left;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 300;
-  text-transform: uppercase;
-  font-size: 13px;
-  color: #000000;color: #222222;
-  transition: .3s ease-in-out;
-}
-
-label:hover {
-color: #cccccc;
-}
-
-
-
-input[type="radio"][id="blue"]:checked + label { text-decoration: underline; }
- 
-input[type="radio"][id="blue"]:checked ~ #red,
-input[type="radio"][id="blue"]:checked ~ #green,
-input[type="radio"][id="blue"]:checked ~ #cyan {
-  width: 0;
-  height: 0;
-  margin: 0;
-  opacity: 0;
-}
- 
-input[type="radio"][id="red"]:checked + label { text-decoration: underline; }
- 
-input[type="radio"][id="red"]:checked ~ .blue,
-input[type="radio"][id="red"]:checked ~ .green,
-input[type="radio"][id="red"]:checked ~ .cyan {
-  width: 0;
-  height: 0;
-  margin: 0;
-  opacity: 0;
-}
- 
-input[type="radio"][id="green"]:checked + label { text-decoration: underline; }
- 
-input[type="radio"][id="green"]:checked ~ .blue,
-input[type="radio"][id="green"]:checked ~ .red
-input[type="radio"][id="green"]:checked ~ .cyan {
-  width: 0;
-  height: 0;
-  margin: 0;
-  opacity: 0;
-}
-
-input[type="radio"][id="cyan"]:checked + label { text-decoration: underline; }
- 
-input[type="radio"][id="cyan"]:checked ~ .blue,
-input[type="radio"][id="cyan"]:checked ~ .red
-input[type="radio"][id="cyan"]:checked ~ .green {
-  width: 0;
-  height: 0;
-  margin: 0;
-  opacity: 0;
-}
-
-*/
-
 
 .PBOX {
 max-width: 90vw;
@@ -473,9 +284,9 @@ margin-right: auto;
 top: 5vh;}
 
 .P {
-width: 70vh;
-height: 50vh;
-margin: 25px;
+width: 39vw;
+height: 26vw;
+margin: 1vw;
 overflow: hidden;
 position: relative;
 display: inline-block;
@@ -525,21 +336,18 @@ opacity: 0;}
 .HIREWRAP {
 height: 9vh;
 width: 100%;
-top: 97vh;
+margin-top: 0px;
 position: relative;
 overflow: hidden;
 background-color: #fafafa;}
     
 .HW {
-width: 75vw;
+width: 82vw;
 height: auto;
 position: relative;
 display: inline-block;
-left: 50%;
-top: 50%;
--webkit-transform: translate(-50%, -50%);
--moz-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);}
+left: 9vw;
+top: 2vh;}
 
 .footnav {
 float: right;
@@ -561,7 +369,6 @@ hi {
 font-family: /* 'Roboto Mono', monospace*/ Helvetica;
 font-size: 11px;
 color: #333333;
-font-weight: 100;
 line-height: 40px;
 letter-spacing: 1px;}
     
@@ -587,8 +394,18 @@ letter-spacing: 15px;}
 
     
 h1 {
-font-size: 14px;
+font-size: 16px;
 line-height: 25px;}
+    
+li {
+float: left;
+text-transform: uppercase;
+font-size: 10px;
+letter-spacing: 1px;
+font-weight: 600;
+text-decoration: underline;
+
+}
 
     
 hi {
@@ -608,22 +425,14 @@ i {
 font-size: 16px !important;
 letter-spacing: 15px;}
     
-    
-.hello {
-max-width: 70vw;
-}
-
 .mobile {
-margin-top: 22vh;
-margin-left: auto;
-margin-right: auto;
+padding-top: 3vh;
+padding-bottom: 3vh;
     }
     
 .PORT, .HIREWRAP {
 top: 0;
--webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
--moz-box-shadow:    0px 0px 0px rgba(0, 0, 0, 0);
-box-shadow:         0px 0px 0px rgba(0, 0, 0, 0);}
+}
 
 .cover {
 padding: 35% 0% 35% 0%;}
@@ -636,7 +445,7 @@ width: 100%;
 height: 10vh;
 top:0px;
 z-index: 999;
-position: fixed;
+position: relative;
 padding: 0px 10px;
 overflow: hidden;
 -webkit-box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.05);
@@ -645,11 +454,10 @@ box-shadow:         0px 0px 50px 20px rgba(0, 0, 0, 0.05);}
     
 .P {
 position: relative;
-width: 40vh;
-height: 30vh;
+width: 100%;
+height: 70vw;
 overflow: hidden;
-margin-top: 30px ;
-margin-left: 15px;}
+margin-top: 4vh ;}
 
 .B {height: 5vh;}
     
@@ -663,8 +471,7 @@ margin-left: 15px;}
    
 .d_wrap {
 width: 100%;
-height: 15%;
-padding: 3% 3% 3% 3%;
+padding: 3% 3% 3% 0%;
 background: white;
 position: absolute;
 bottom: 0;
@@ -675,12 +482,12 @@ left: 0p;
 position: absolute;
 margin-left: 0;
 margin-bottom: 0;
-width: 40vh;
+width: 100%;
 height: 20px;
-font-size: 11px;
+font-size: 10px;
 text-align: left;
 font-family: /* 'Roboto Mono', monospace*/ Helvetica;
-font-weight: 100;}
+text-transform: uppercase;}
     
 .FEATB {
 width: 45vw;
