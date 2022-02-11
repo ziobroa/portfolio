@@ -89,13 +89,12 @@ z-index: 999;
 
 .NAV {
 position: absolute;
-right: 10vw;
-top: 50%;
-transform: translateY(-50%);
+right: 9vw;
+top: 6.5vh;
 height: 20px;
 font-family: /* 'Roboto Mono', monospace*/ Helvetica;
-font-weight: 300;
 font-size: 11px;
+letter-spacing: 1px;
 word-spacing: 15px;}
 
 .go a:before,
