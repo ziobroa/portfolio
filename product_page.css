@@ -109,8 +109,7 @@ top: 6.5vh;
 height: 20px;
 font-family: /* 'Roboto Mono', monospace*/ Helvetica;
 font-size: 11px;
-letter-spacing: 1px;
-word-spacing: 15px;}
+letter-spacing: 1px;}
 
 .go a:before,
 .go a:after {
