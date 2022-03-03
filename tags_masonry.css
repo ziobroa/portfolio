@@ -34,6 +34,32 @@ src:
 url("/fonts/HalibutSerif-Variable.ttf") format("truetype"),
 }
 
+/*-------------------HIRE----------------------*/
+
+    
+.HIREWRAP {
+height: 9vh;
+width: 100%;
+margin-top: 0px;
+position: relative;
+overflow: hidden;
+background-color: #fafafa;}
+    
+.HW {
+width: 82vw;
+height: auto;
+position: relative;
+display: inline-block;
+left: 9vw;
+top: 2vh;}
+
+.footnav {
+float: right;
+word-spacing: 20px;
+text-transform: uppercase;
+}
+
+/*-------------------HIRE----------------------*/
 
 /*------------------- TEXT ----------------------*/
 
@@ -192,6 +218,13 @@ display: grid;
   justify-content: center;
   align-items: center;
     }
+    
+    hi {
+font-family: /* 'Roboto Mono', monospace*/ Helvetica;
+font-size: 11px;
+color: #333333;
+line-height: 40px;
+letter-spacing: 1px;}
 
     
 } /*---min--*/
@@ -215,6 +248,19 @@ i {
 font-size: 16px !important;
 letter-spacing: 15px;}
 
+    
+    
+hi {
+font-family: /* 'Roboto Mono', monospace*/ Helvetica;
+font-size: 10px;
+color: #333333;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 1px;}
+    
+.footnav {
+word-spacing: 5px;
+}
     
 .APPH {
 margin-top: 0px;
