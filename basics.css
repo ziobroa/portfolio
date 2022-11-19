@@ -62,7 +62,7 @@ margin: 0;}
 h1 {
 font-family: 'Halibut', sans-serif; 
 font-size: 36px;
-line-height: 48px;
+line-height: 42px;
 font-weight: 100;
 margin: 0;}
 
@@ -280,8 +280,8 @@ letter-spacing: 1px;}
 
 #hiwrap {
 width: 100%;
-padding-top: 3vh;
-padding-bottom: 3vh;
+padding-top: 2vh;
+padding-bottom: 6vh;
 position: relative;
 margin: 0;
 color: black;
