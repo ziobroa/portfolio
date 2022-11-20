@@ -20,7 +20,7 @@ html {
 body {
 margin: 0;
 background: #fefefe;
-font-family: /* 'Roboto Mono', monospace*/ Helvetica, Arial, sans-serif;
+font-family: Helvetica, Arial, sans-serif;
 font-size: 17px;
 }
 
@@ -43,6 +43,7 @@ a {
 text-decoration: none;
 color: #333;
 transition: .5s;
+    font-family: /* 'Roboto Mono', monospace*/ Helvetica, Arial, sans-serif;
 opacity: 1;
 cursor: crosshair;}
 
@@ -235,7 +236,6 @@ position: absolute;
 right: 9vw;
 top: 6.5vh;
 height: 20px;
-font-family: /* 'Roboto Mono', monospace*/ Helvetica;
 font-size: 11px;
 letter-spacing: 1px;}
 
@@ -420,7 +420,7 @@ text-transform: uppercase;
     
     
 hi {
-font-family: /* 'Roboto Mono', monospace*/ Helvetica;
+font-family: /* 'Roboto Mono', monospace*/ Helvetica, Arial, sans-serif;
 font-size: 11px;
 color: #333333;
 line-height: 40px;
@@ -463,7 +463,7 @@ text-decoration: underline;
 
     
 hi {
-font-family: /* 'Roboto Mono', monospace*/ Helvetica;
+font-family: /* 'Roboto Mono', monospace*/ Helvetica, Arial, sans-serif;
 font-size: 10px;
 color: #333333;
 font-weight: 400;
