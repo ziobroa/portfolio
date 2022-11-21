@@ -20,7 +20,7 @@ html {
 body {
 margin: 0;
 background: #fefefe;
-font-family: /* 'Roboto Mono', monospace*/ Helvetica, Arial, sans-serif;
+font-family: Helvetica, Arial, sans-serif;
 font-size: 17px;}
 
 img {
@@ -121,7 +121,7 @@ position: absolute;
 right: 9vw;
 top: 6.5vh;
 height: 20px;
-font-family: /* 'Roboto Mono', monospace*/ Helvetica;
+font-family: Helvetica, Arial, sans-serif;
 font-size: 11px;
 letter-spacing: 1px;}
 
@@ -197,7 +197,7 @@ padding-bottom: 4%;
 }
 
   hi {
-font-family: /* 'Roboto Mono', monospace*/ Helvetica;
+font-family: Helvetica, Arial, sans-serif;
 font-size: 11px;
 color: #333333;
 line-height: 40px;
@@ -232,7 +232,7 @@ font-size: 16px !important;
 letter-spacing: 15px;}
     
 hi {
-font-family: /* 'Roboto Mono', monospace*/ Helvetica;
+font-family: Helvetica, Arial, sans-serif;
 font-size: 10px;
 color: #333333;
 font-weight: 400;
