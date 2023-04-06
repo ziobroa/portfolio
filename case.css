@@ -165,6 +165,31 @@ display: inline-block;
 }
 
 
+.fullbleed {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    display: block;
+   left: 50%;
+transform: translateX(-50%);
+    overflow-x: scroll;
+       padding-bottom: 12vw;
+    
+
+}
+
+.fbimg {
+    margin-left: 10vw;
+    height: auto;
+}
+
+.fbimg img {
+    height: 40vw;
+    width: auto;
+}
+
+
+
 .intro_desc {
 margin-top: 0;
 width: 60%;
@@ -180,6 +205,7 @@ text-align: right;
 
 
 .image {
+position: relative;
 padding-bottom: 4%;
 float: left;
 }
@@ -190,6 +216,7 @@ padding: 8vh 0vh 8vh 0vh;
 }
 
 .section {
+position: relative;
 text-align: left;
 padding: 0vw 10vw 0vw 0vw;
 }
