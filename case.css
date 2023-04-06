@@ -188,6 +188,10 @@ transform: translateX(-50%);
     width: auto;
 }
 
+.fullbleed::-webkit-scrollbar {
+    display: none;
+}
+
 
 
 .intro_desc {
