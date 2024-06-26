@@ -160,7 +160,7 @@ height: 43vw;
 
 .CASE {
 padding: 2%;
-margin-top: 3%;
+margin-top: 0;
 display: inline-block;
 }
 
@@ -226,7 +226,7 @@ text-align: right;
 
 .image {
 position: relative;
-padding-bottom: 4%;
+padding-bottom: 0;
 float: left;
 }
 
