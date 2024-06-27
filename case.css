@@ -178,8 +178,14 @@ display: inline-block;
    left: 50%;
 transform: translateX(-50%);
     overflow-x: scroll;
-    
 }
+
+
+.bleedgroup {
+margin-left: 1vw;
+width: 115vw;  
+}
+
 
 .fullbleedtextcontainer {
 display: block;
@@ -197,11 +203,19 @@ font-family: 'Halibut', sans-serif;
 .fbimg {
     margin-left: 30vw;
     height: auto;
+    position: relative;
+     display: inline-block;
+     height: 30vw;
 }
 
 .fbimg img {
-    height: 30vw;
     width: auto;
+    height: 100%;
+}
+
+.rel {
+    margin-left: 1vw;
+    height: 38vw;
 }
 
 .fullbleed::-webkit-scrollbar {
@@ -329,6 +343,18 @@ display: none;
 .fbimg {
     margin-left: 8vw;
     height: auto;
+}
+
+.rel {
+    margin-left: .8vw;
+    height: 70vw;
+}
+    
+
+    .bleedgroup {
+margin-top: 2vw;
+margin-left: 1vw;
+width: 206vw;  
 }
     
     
