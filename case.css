@@ -204,9 +204,11 @@ font-family: 'Halibut', sans-serif;
     margin-left: 30vw;
     height: auto;
     position: relative;
-     display: inline-block;
-     height: 30vw;
+    display: inline-block;
+    height: 30vw;
 }
+
+
 
 .fbimg img {
     width: auto;
@@ -218,9 +220,6 @@ font-family: 'Halibut', sans-serif;
     height: 38vw;
 }
 
-.fullbleed::-webkit-scrollbar {
-    display: none;
-}
 
 
 
@@ -254,7 +253,48 @@ position: relative;
 text-align: left;
 padding: 0vw 10vw 0vw 0vw;
 }
+
+
+.browserscreen {
+    width: 77vw;
+    height: 42vw;
+    border-radius: 2vh;
+    border: 2px solid #E5E5E5;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
+.browserscreen::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
   
+
+
+
+.browserbar {
+    position: absolute;
+    margin: 0;
+    border-radius: 1.7vh 1.7vh 0vh 0vh;
+    background: rgba(255,255,255,.9);
+    height: 3vw;
+    width: 76.7vw;
+}
+
+.browserbar img {
+margin-left: 1.5vw;
+margin-top: 1.2vw;
+width: 3vw;        
+    }
+
+
+
+.browsercontent {
+margin-top: 3vw; 
+}
+
+
 
 li {
 list-style: none;
@@ -355,6 +395,32 @@ display: none;
 margin-top: 2vw;
 margin-left: 1vw;
 width: 206vw;  
+}
+    
+    
+.browserscreen {
+    height: 65vw;
+    border-radius: 1.5vh;
+}
+
+
+
+.browserbar {
+    border-radius: 1.2vh 1.2vh 0vh 0vh;
+    background: rgba(255,255,255,.9);
+    height: 5vw;
+    width: 76.2vw;
+}
+    
+.browserbar img {
+margin-left: 1.8vw;
+margin-top: 0vw;
+width: 4vw;        
+    }
+    
+
+.browsercontent {
+margin-top: 5vw; 
 }
     
     
