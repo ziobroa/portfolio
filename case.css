@@ -164,10 +164,9 @@ margin-top: 0;
 display: inline-block;
 }
 
-.sectionfb {
-    position: relative;
-    
-}
+.sectionfb { position: relative;}
+
+
 
 
 .fullbleed {
@@ -185,6 +184,13 @@ transform: translateX(-50%);
 margin-left: 1vw;
 width: 115vw;  
 }
+
+.sand {
+    background: #EFEDE7;
+    height: 40vw;
+    margin-left: 0vw;
+}
+
 
 
 .fullbleedtextcontainer {
