@@ -402,6 +402,11 @@ margin-left: 1vw;
 width: 206vw;  
 }
     
+.sand {
+    margin-left: 0vw;
+    width: 100vw; 
+}
+    
     
 .browserscreen {
     height: 95vw;
