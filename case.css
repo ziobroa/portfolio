@@ -185,9 +185,8 @@ width: 115vw;
 }
 
 .sand {
-    background: #EFEDE7;
-    height: 40vw;
     margin-left: 0vw;
+    width: 100vw; 
 }
 
 
@@ -219,6 +218,7 @@ font-family: 'Halibut', sans-serif;
     width: auto;
     height: 100%;
 }
+
 
 .rel {
     margin-left: 1vw;
