@@ -57,15 +57,16 @@ margin: 0;}
 
 h1 {
 font-family: 'Halibut', Helvetica;
-font-size: 18px;
-letter-spacing: .5px;
+font-size: 32px;
+margin: 0px;
 font-weight: 300;}
 
 
 p {
-font-size: 12px;
+font-size: 13px;
 font-weight: 200;
 line-height: 18px;
+margin-top: 8px;
 color: #333;}
 
 
@@ -153,9 +154,6 @@ position: relative;
 }
 
 
-.COVER {
-height: 43vw;   
-}
 
 .CASE {
 padding: 2%;
@@ -173,6 +171,7 @@ display: inline-block;
     width: 100vw;
     height: auto;
     display: block;
+        padding: 1vw 0vw 3vw 0vw;
    left: 50%;
 transform: translateX(-50%);
     overflow-x: scroll;
@@ -213,7 +212,6 @@ font-family: 'Halibut', sans-serif;
 }
 
 
-
 .fbimg img {
     width: auto;
     height: 100%;
@@ -226,19 +224,12 @@ font-family: 'Halibut', sans-serif;
 }
 
 
-
-
-.intro_desc {
+.top {
 margin-top: 0;
-width: 60%;
-float: left;
-}
-
-.info_desc {
-margin-top: 0;
-width: 40%;
-float: right;
-text-align: right;
+width: 100%;
+padding-left: 16vw;
+padding-right: 16vw;
+text-align: center;
 }
 
 
@@ -248,9 +239,13 @@ padding-bottom: 0;
 float: left;
 }
 
+.caseimage {
+padding-bottom: 3vw;
+}
+
 
 .OTHER {
-padding: 8vh 0vh 8vh 0vh;
+padding: 6vh 0vh 6vh 0vh;
 }
 
 .section {
@@ -324,9 +319,6 @@ text-align: center;
 .WEB { display: none;}
 .APP {display: inherit;}
     
-i {
-font-size: 16px !important;
-letter-spacing: 15px;}
 
     
 .APPH {
@@ -367,15 +359,20 @@ text-align: left;
     
 h1 {
 font-family: 'Halibut', Helvetica;
-font-size: 14px;
+font-size: 24px;
 font-weight: 300;}
 
 
 p {
-font-size: 11px;
+font-size: 12px;
 font-weight: 200;
 line-height: 16px;
 color: #333;    }
+    
+    
+.top {
+padding-left: 6vw;
+padding-right: 6vw;}
     
     .section {
 padding: 0vw 0vw 0vw 0vw;

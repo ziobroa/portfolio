@@ -202,6 +202,10 @@ position: relative;
 }
 
 
+.OTHER {
+padding: 1vh 0vh 6vh 0vh;
+}
+
 
 
 .image {
@@ -210,10 +214,9 @@ padding-bottom: 4%;
 
   hi {
 font-family: Helvetica, Arial, sans-serif;
-font-size: 11px;
+font-size: 32px;
 color: #333333;
-line-height: 40px;
-letter-spacing: 1px;}
+line-height: 40px;}
   
 
 li {
@@ -239,9 +242,6 @@ text-align: center;
 .WEB { display: none;}
 .APP {display: inherit;}
     
-i {
-font-size: 16px !important;
-letter-spacing: 15px;}
     
 hi {
 font-family: Helvetica, Arial, sans-serif;
@@ -282,12 +282,12 @@ box-shadow:         0px 0px 50px 20px rgba(0, 0, 0, 0.05);}
     
 h1 {
 font-family: 'Halibut', Helvetica;
-font-size: 14px;
+font-size: 18px;
 font-weight: 300;}
 
 
 p {
-font-size: 11px;
+font-size: 12px;
 font-weight: 200;
 line-height: 22px;
 color: #333;    }

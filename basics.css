@@ -338,11 +338,12 @@ margin-right: auto;
 top: 5vh;}
 
 .P {
+border-radius: 8px;
 width: 39vw;
 height: 26vw;
 margin: 1vw;
+filter: drop-shadow(0 2px 2px rgba(0, 0, 0, .1));
 overflow: hidden;
-position: relative;
 display: inline-block;
 background-size: 150%;
 background-position: center;
@@ -378,7 +379,7 @@ background: rgba(255, 255, 255, 0.9);
 transition: all .5s ease-in-out;
 width: 100%;
 height: 100%;
-padding: 30% 0% 32% 0%;
+padding: 27% 0% 32% 0%;
 text-align: center;
 font-family: Helvetica, Arial, sans-serif;
 color: #333;
@@ -454,8 +455,8 @@ letter-spacing: 15px;}
 
     
 h1 {
-font-size: 16px;
-line-height: 25px;}
+font-size: 24px;
+line-height: 30px;}
     
 li {
 float: left;
@@ -481,12 +482,7 @@ word-spacing: 5px;
 }
     
     
-i {
-font-size: 16px !important;
-letter-spacing: 15px;}
-    
 .mobile {
-padding-top: 3vh;
 padding-bottom: 3vh;
     }
     
@@ -494,34 +490,17 @@ padding-bottom: 3vh;
 top: 0;
 }
 
-.cover {
-padding: 35% 0% 35% 0%;}
-
-.APPH {
-margin-top: 0px;
-margin-left:0px;
-background: #fefefe;
-width: 100%;
-height: 10vh;
-top:0px;
-z-index: 999;
-position: relative;
-padding: 0px 10px;
-overflow: hidden;
--webkit-box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.05);
--moz-box-shadow:    0px 0px 50px 20px rgba(0, 0, 0, 0.05);
-box-shadow:         0px 0px 50px 20px rgba(0, 0, 0, 0.05);}
     
 .P {
 position: relative;
 width: 100%;
-height: 70vw;
+height: 55vw;
 overflow: hidden;
-margin-top: 4vh ;}
+margin-top: 1vh ;}
 
 .B {height: 5vh;}
     
-.PBOX {top: 11vh;}
+.PBOX {top: 0vh;}
 
 .NWA {
   position: relative;
