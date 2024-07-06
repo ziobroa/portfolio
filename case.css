@@ -181,7 +181,7 @@ transform: translateX(-50%);
 
 .bleedgroup {
 margin-left: 1vw;
-width: 115vw;  
+width: 135vw;  
 }
 
 
@@ -201,21 +201,25 @@ padding: 6vw 6vw 6vw 6vw;
 
 
 .YELLOW {
-    background-color: #FEF7E6;
-    padding: 6vw 9vw 6vw 9vw;
+background-color: #FEF7E6;
+padding: 6vw 9vw 6vw 9vw;
 }
 
 .GREEN {
 background-color: #BAD3C2;
-      padding: 6vw 9vw 6vw 9vw;
+padding: 6vw 9vw 6vw 9vw;
 }
 
 
 .SAND {
 background-color: #EFEDE7;
-      padding: 6vw 9vw 6vw 9vw;
+padding: 6vw 9vw 6vw 9vw;
 }
 
+.ORANGE {
+background-color: #EFEDE7;
+padding: 6vw 9vw 6vw 9vw;
+}
 
 hs1 {
 font-size: 30px;
@@ -240,7 +244,7 @@ font-family: 'Halibut', sans-serif;
 
 .rel {
     margin-left: 1vw;
-    height: 38vw;
+    height: 45vw;
 }
 
 
