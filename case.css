@@ -217,8 +217,13 @@ padding: 6vw 9vw 6vw 9vw;
 }
 
 .ORANGE {
-background-color: #EFEDE7;
+background-color: #F9E7D7;
 padding: 6vw 9vw 6vw 9vw;
+}
+
+.SALMON {
+background-color: #F0D3C4;
+padding: 6vw 9vw 6vw 9vw;   
 }
 
 hs1 {
