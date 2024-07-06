@@ -269,6 +269,16 @@ box-shadow:         0px 0px 50px 20px rgba(0, 0, 0, 0.05);}
   transform: translateY(-50%);
     }
     
+    
+.CASE {
+    padding: 0%;
+    margin-top: 0%; }
+    
+
+    .CONTENT {
+    max-width: 100%;
+    }
+    
 
     
     

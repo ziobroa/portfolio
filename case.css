@@ -342,6 +342,16 @@ box-shadow:         0px 0px 50px 20px rgba(0, 0, 0, 0.05);}
   transform: translateY(-50%);
     }
     
+    .CASE {
+    padding: 0%;
+    }
+    
+    .CONTENT {
+        max-width: 100%;
+    position: relative;
+    padding: 0px 20px 0px 20px;
+    }
+    
     
 .intro_desc {
 margin-top: 0;
@@ -406,6 +416,7 @@ width: 206vw;
     
     
 .browserscreen {
+    width: 100%;
     height: 95vw;
     border-radius: 1.5vh;
 }
