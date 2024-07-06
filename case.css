@@ -265,7 +265,13 @@ padding-top: 3vw;
 
 
 .OTHER {
-padding: 6vh 0vh 6vh 0vh;
+padding: 6vh 6vh 6vh 6vh;
+}
+
+.OTHER a {
+font-size: 11px;
+letter-spacing:1px;
+font-weight: 400;
 }
 
 .section {
