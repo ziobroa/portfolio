@@ -373,8 +373,10 @@ background-image: url(via.jpg);}
 
 .TEN {background-image: url(TEDM-hero.gif);}
 
-.ELEVEN {background-image: url(draw03.jpg);
-background-position: 35% 15%;}
+.ELEVEN {background-image: url(figure-drawing.png);
+background-position: 55% 10%;}
+
+.TWELVE {background-image: url(pleinair.png);}
 
 .B {
 height: 3vh;
